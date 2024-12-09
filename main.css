@@ -1,0 +1,109 @@
+body {
+  background-color: GhostWhite;
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px; /* Ограничиваем ширину содержимого */
+  margin: 0 auto; /* Центрируем контейнер */
+  padding: 20px; /* Добавляем внутренние отступы */
+  background-color: White; /* Цвет фона для контейнера */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Тень вокруг контейнера */
+  border: 1px solid #333; /* Рамка вокруг контейнера */
+  border-radius: 5px; /* Скругляем углы рамки */
+}
+
+h1 {
+  background-color: #333;
+  color: white;
+  font-family: 'Calibri', 'Verdana', sans-serif;
+  margin: 0;
+  
+}
+
+h2 {
+  font-family: 'Calibri', 'Verdana', sans-serif;
+}
+
+h3 {
+  font-family: 'Calibri', 'Verdana', sans-serif;
+}
+
+p {
+  font-family: 'Calibri';
+  text-indent: 20px;
+}
+
+.big_size {
+  text-align: center;
+  font-size: 40px;
+  margin: 0 auto
+}
+
+.text-center-1 {
+  text-align: center;
+}
+
+.text-center-2 {
+  text-align: center;
+}
+
+.text-center-3 {
+  text-align: center;
+}
+
+.text-center-4 {
+  text-align: center;
+}
+
+.text-center-5 {
+  text-align: center;
+}
+
+.text-center-6 {
+  text-align: center;
+}
+
+.text-center-7 {
+  text-align: center;
+}
+
+ol { 
+  font-family: 'Calibri', 'Verdana', sans-serif;
+}
+
+nav ul {
+  background-color: #333;
+  overflow: hidden;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  font-family: 'Calibri', 'Verdana', sans-serif;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none ;
+}
+
+a {
+color: white;
+text-decoration: none !important;
+border: none !important;
+}
+
+.ahm1-image {
+  width: 350px; /* Задаем ширину изображения */
+  height: auto; /* Поддерживаем пропорции */
+  border: 2px solid #333; /* Добавляем рамку */
+  border-radius: 10px; /* Скругляем углы рамки */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Добавляем тень */
+  display: block;
+  margin: 0 auto; /* Создаем отступ вокруг изображения */
+}
