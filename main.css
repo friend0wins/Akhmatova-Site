@@ -1,13 +1,16 @@
 body {
-  background-color: GhostWhite;
-  margin: 0;
+  background: url(images/background.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container {
   max-width: 1200px; /* Ограничиваем ширину содержимого */
   margin: 0 auto; /* Центрируем контейнер */
   padding: 20px; /* Добавляем внутренние отступы */
-  background-color: White; /* Цвет фона для контейнера */
+  background: url(images/background2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Тень вокруг контейнера */
   border: 1px solid #333; /* Рамка вокруг контейнера */
   border-radius: 5px; /* Скругляем углы рамки */
@@ -23,21 +26,25 @@ h1 {
 
 h2 {
   font-family: 'Calibri', 'Verdana', sans-serif;
+  color: white;
 }
 
 h3 {
   font-family: 'Calibri', 'Verdana', sans-serif;
+  color: white;
 }
 
 p {
   font-family: 'Calibri';
   text-indent: 20px;
+  color: white;
 }
 
 .big_size {
   text-align: center;
   font-size: 40px;
   margin: 0 auto
+  color: white;
 }
 
 .text-center-1 {
@@ -70,6 +77,7 @@ p {
 
 ol { 
   font-family: 'Calibri', 'Verdana', sans-serif;
+  color: white;
 }
 
 nav ul {
@@ -106,4 +114,44 @@ border: none !important;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Добавляем тень */
   display: block;
   margin: 0 auto; /* Создаем отступ вокруг изображения */
+}
+
+.fs-image {
+  width: 350px;
+  height: auto;
+  border: 2px solid #333;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 auto;
+}
+
+.qr-image {
+  width: 350px;
+  height: auto;
+  border: 2px solid #333;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 auto;
+}
+
+.mk-image {
+  width: 350px;
+  height: auto;
+  border: 2px solid #333;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 auto;
+}
+
+.lec-image {
+  width: 350px;
+  height: auto;
+  border: 2px solid #333;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 auto;
 }
